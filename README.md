@@ -31,8 +31,11 @@ analysis/
   load.py       source .xlsx -> tidy dataframe (drops "Total:" rows)
   classify.py   per-account intent classifier (5 relevance classes)
   metrics.py    AI Max vs keyword-matched aggregates
-  build.py      renders report/ai-max-audit.html from data/metrics.json
-  head.html     report stylesheet + <title>
+  charts.py       shared SVG chart primitives (stacked, grouped, hbars)
+  build.py        renders report/ai-max-audit.html
+  build_brief.py  renders report/ai-max-brief.html (3 x A4)
+  head.html       full-report stylesheet
+  brief_head.html brief stylesheet (print rules: @page A4, fixed 297mm pages)
 data/
   classified_search_terms.csv   all 6,927 terms with assigned class + reason
   metrics.json                  every figure used in the report
@@ -45,7 +48,8 @@ report/
 ```bash
 pip install pandas openpyxl
 cd analysis && python3 metrics.py   # prints the comparison tables
-python3 build.py                    # regenerates the report
+python3 build.py                    # regenerates the full report
+python3 build_brief.py              # regenerates the 3-page brief
 ```
 
 Source files are the five Google Ads "Search terms report" .xlsx exports. Every
