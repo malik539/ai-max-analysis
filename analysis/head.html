@@ -1,0 +1,162 @@
+<title>AI Max Search Term Audit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+:root{
+  color-scheme:light;
+  --plane:#eef1f4; --surface:#fdfdfe; --surface-2:#f5f7f9; --surface-3:#e8ecf0;
+  --ink:#10151a; --ink-2:#4a545e; --ink-3:#78838e;
+  --rule:#dde3e9; --rule-2:#c6ced6; --ring:rgba(16,21,26,.10);
+  --r1:#256abf; --r2:#86b6ef; --r3:#8f8c84; --r4:#e05038; --r5:#9a2926;
+  --std:#2a78d6; --aim:#eb6834;
+  --good:#0ca30c; --warn:#fab219; --crit:#d03b3b;
+  --good-ink:#0a7d0a; --warn-ink:#8a6209; --crit-ink:#b32f2f;
+  --grid:#e4e9ee; --axis:#c6ced6;
+  --shadow:0 1px 2px rgba(16,21,26,.05),0 8px 24px -12px rgba(16,21,26,.14);
+  --on1:#ffffff; --on2:#10151a; --on3:#10151a; --on4:#ffffff; --on5:#ffffff;
+}
+@media (prefers-color-scheme:dark){:root:where(:not([data-theme="light"])){
+  color-scheme:dark;
+  --plane:#0b0e11; --surface:#171b1f; --surface-2:#1e2429; --surface-3:#272e34;
+  --ink:#f2f5f7; --ink-2:#b3bec7; --ink-3:#8b959e;
+  --rule:#2a3238; --rule-2:#3a444c; --ring:rgba(242,245,247,.12);
+  --r1:#3987e5; --r2:#9ec5f4; --r3:#87837b; --r4:#f0955f; --r5:#c8383a;
+  --std:#3987e5; --aim:#d95926;
+  --good-ink:#3cc23c; --warn-ink:#f0b53a; --crit-ink:#e86b6b;
+  --grid:#242b31; --axis:#3a444c;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.7);
+  --on1:#ffffff; --on2:#10151a; --on3:#10151a; --on4:#10151a; --on5:#ffffff;
+}}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --plane:#0b0e11; --surface:#171b1f; --surface-2:#1e2429; --surface-3:#272e34;
+  --ink:#f2f5f7; --ink-2:#b3bec7; --ink-3:#8b959e;
+  --rule:#2a3238; --rule-2:#3a444c; --ring:rgba(242,245,247,.12);
+  --r1:#3987e5; --r2:#9ec5f4; --r3:#87837b; --r4:#f0955f; --r5:#c8383a;
+  --std:#3987e5; --aim:#d95926;
+  --good-ink:#3cc23c; --warn-ink:#f0b53a; --crit-ink:#e86b6b;
+  --grid:#242b31; --axis:#3a444c;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.7);
+  --on1:#ffffff; --on2:#10151a; --on3:#10151a; --on4:#10151a; --on5:#ffffff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--plane);color:var(--ink);
+  font-family:"Source Serif 4",Georgia,serif;font-size:16.5px;line-height:1.62;
+  -webkit-font-smoothing:antialiased;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px 96px}
+h1,h2,h3,h4,.ui{font-family:Archivo,system-ui,-apple-system,"Segoe UI",sans-serif}
+.mono,table,.num{font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace}
+.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-3);margin:0 0 10px}
+h1{font-size:clamp(34px,5.2vw,54px);font-weight:700;letter-spacing:-.028em;line-height:1.03;
+  margin:0 0 18px;text-wrap:balance}
+h2{font-size:clamp(23px,2.9vw,30px);font-weight:600;letter-spacing:-.02em;line-height:1.15;
+  margin:0 0 6px;text-wrap:balance}
+h3{font-size:19px;font-weight:600;letter-spacing:-.012em;margin:0 0 4px}
+h4{font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 12px;color:var(--ink-2)}
+p{margin:0 0 14px;max-width:66ch}
+a{color:var(--std)}
+.lede{font-size:19px;line-height:1.6;color:var(--ink-2);max-width:64ch}
+/* ---------- masthead ---------- */
+.mast{padding:60px 0 34px;border-bottom:2px solid var(--ink)}
+.mast .meta{display:flex;flex-wrap:wrap;gap:8px 26px;margin-top:24px;
+  font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--ink-3)}
+.mast .meta b{color:var(--ink-2);font-weight:500}
+/* ---------- sections ---------- */
+section{padding:56px 0 0}
+.shead{display:flex;align-items:baseline;gap:14px;border-bottom:1px solid var(--rule-2);
+  padding-bottom:12px;margin-bottom:28px}
+.shead .n{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;color:var(--ink-3);
+  padding-top:4px;white-space:nowrap}
+/* ---------- cards ---------- */
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:3px;
+  padding:24px;box-shadow:var(--shadow)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(178px,1fr));gap:1px;
+  background:var(--rule);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+.tile{background:var(--surface);padding:18px 18px 16px}
+.tile .k{font-family:"IBM Plex Mono",monospace;font-size:10.5px;font-weight:600;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3);margin-bottom:9px;line-height:1.35}
+.tile .v{font-family:Archivo,sans-serif;font-size:31px;font-weight:700;letter-spacing:-.028em;
+  line-height:1;margin-bottom:7px}
+.tile .s{font-size:12.5px;line-height:1.45;color:var(--ink-2);font-family:Archivo,sans-serif}
+.tile .v.bad{color:var(--crit-ink)} .tile .v.ok{color:var(--good-ink)}
+/* ---------- chart shell ---------- */
+figure{margin:0 0 8px}
+.fig{background:var(--surface);border:1px solid var(--rule);border-radius:3px;padding:22px 22px 16px;
+  box-shadow:var(--shadow)}
+.fig + .fig{margin-top:20px}
+figcaption{font-size:13.5px;color:var(--ink-2);margin-top:12px;max-width:72ch;line-height:1.5}
+.chart-scroll{overflow-x:auto}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;margin:0 0 16px;
+  font-family:Archivo,sans-serif;font-size:12.5px;color:var(--ink-2)}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:11px;height:11px;border-radius:2px;flex:none}
+svg{display:block;max-width:100%}
+svg text{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums}
+svg .lbl{font-family:Archivo,sans-serif}
+/* ---------- tables ---------- */
+.tw{overflow-x:auto;border:1px solid var(--rule);border-radius:3px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums}
+th,td{padding:9px 13px;text-align:right;border-bottom:1px solid var(--rule);white-space:nowrap}
+th{background:var(--surface-2);font-weight:600;font-size:10.5px;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--ink-2);position:sticky;top:0}
+th:first-child,td:first-child{text-align:left}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover td{background:var(--surface-2)}
+tfoot td{background:var(--surface-2);font-weight:600;border-top:2px solid var(--rule-2)}
+td.term{font-size:12.5px;white-space:normal;min-width:190px;max-width:280px}
+table.sc{table-layout:fixed;width:100%}
+table.sc td:first-child{white-space:normal;width:46%}
+table.sc td:nth-child(2){width:22%}
+table.sc td:last-child{white-space:normal;width:32%;line-height:1.35;padding-top:11px}
+/* ---------- chips ---------- */
+.chip{display:inline-flex;align-items:center;gap:6px;font-family:Archivo,sans-serif;font-size:11.5px;
+  font-weight:600;letter-spacing:.03em;padding:3px 9px;border-radius:2px;border:1px solid;white-space:nowrap}
+.chip.keep{color:var(--good-ink);border-color:var(--good-ink);background:color-mix(in srgb,var(--good) 9%,transparent)}
+.chip.mon{color:var(--warn-ink);border-color:var(--warn-ink);background:color-mix(in srgb,var(--warn) 12%,transparent)}
+.chip.res{color:var(--crit-ink);border-color:var(--crit-ink);background:color-mix(in srgb,var(--crit) 9%,transparent)}
+.chip.info{color:var(--ink-2);border-color:var(--rule-2);background:var(--surface-2)}
+.chip i{width:7px;height:7px;border-radius:50%;background:currentColor;flex:none}
+/* ---------- callouts ---------- */
+.note{border-left:3px solid var(--warn);background:var(--surface);padding:16px 20px;border-radius:0 3px 3px 0;
+  margin:0 0 18px;box-shadow:var(--shadow)}
+.note.crit{border-left-color:var(--crit)}
+.note h4{margin-bottom:6px;color:var(--ink);font-size:14px}
+.note p{font-size:14.5px;margin-bottom:0;color:var(--ink-2);max-width:72ch}
+.note p + p{margin-top:9px}
+/* ---------- account block ---------- */
+.acct{background:var(--surface);border:1px solid var(--rule);border-radius:3px;
+  box-shadow:var(--shadow);margin-bottom:26px;overflow:hidden}
+.acct > header{padding:20px 24px;border-bottom:1px solid var(--rule);background:var(--surface-2);
+  display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center;justify-content:space-between}
+.acct > header .who{min-width:min(100%,300px)}
+.acct > header .ctx{font-family:Archivo,sans-serif;font-size:12.5px;color:var(--ink-3);margin-top:2px}
+.acct .body{padding:22px 24px 24px;display:grid;gap:22px}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px}
+@media(max-width:760px){.two{grid-template-columns:1fr}}
+.verdict-line{background:var(--surface-2);border:1px solid var(--rule);border-left:3px solid var(--rule-2);
+  padding:14px 18px;border-radius:0 3px 3px 0;font-size:14.5px;color:var(--ink-2);max-width:none}
+.verdict-line.res{border-left-color:var(--crit)}
+.verdict-line.mon{border-left-color:var(--warn)}
+.verdict-line.keep{border-left-color:var(--good)}
+.verdict-line b{color:var(--ink);font-family:Archivo,sans-serif;font-weight:600}
+ul{margin:0 0 14px;padding-left:20px;max-width:66ch}
+li{margin-bottom:7px}
+li::marker{color:var(--ink-3)}
+.final{border:2px solid var(--ink);border-radius:3px;background:var(--surface);padding:30px;box-shadow:var(--shadow)}
+.final .big{font-family:Archivo,sans-serif;font-size:clamp(28px,4vw,42px);font-weight:700;
+  letter-spacing:-.028em;line-height:1.08;margin:6px 0 16px}
+.rule{height:1px;background:var(--rule);margin:26px 0}
+.foot{margin-top:60px;padding-top:20px;border-top:1px solid var(--rule);
+  font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink-3);line-height:1.7}
+:focus-visible{outline:2px solid var(--std);outline-offset:2px}
+@media (prefers-reduced-motion:no-preference){
+  .bar-anim{transform-origin:left center;animation:grow .7s cubic-bezier(.22,1,.36,1) both}
+  @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+}
+.tip{position:fixed;pointer-events:none;z-index:99;background:var(--ink);color:var(--surface);
+  font-family:"IBM Plex Mono",monospace;font-size:11.5px;line-height:1.5;padding:7px 10px;border-radius:3px;
+  opacity:0;transition:opacity .12s;max-width:260px;box-shadow:0 6px 18px rgba(0,0,0,.3)}
+.tip.on{opacity:1}
+</style>

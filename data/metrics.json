@@ -1,0 +1,1358 @@
+{
+ "accounts": {
+  "Goodman Ortho": {
+   "context": "Orthodontics \u2014 Bronx / Riverdale NY (braces, Invisalign)",
+   "aimax": {
+    "terms": 193,
+    "impr": 306,
+    "clicks": 13,
+    "cost": 112.48,
+    "conv": 2.0,
+    "ctr": 4.25,
+    "cpc": 8.65,
+    "cvr": 15.38,
+    "cpa": 56.24,
+    "relPct": 78.8,
+    "borPct": 13.0,
+    "irrPct": 8.3,
+    "cats": {
+     "Highly Relevant": 39,
+     "Relevant / Acceptable": 113,
+     "Borderline / Low Intent": 25,
+     "Irrelevant": 6,
+     "Clearly Wasteful": 10
+    },
+    "catCost": {
+     "Highly Relevant": 12.6,
+     "Relevant / Acceptable": 94.5,
+     "Borderline / Low Intent": 2.76,
+     "Irrelevant": 0.0,
+     "Clearly Wasteful": 2.62
+    },
+    "catClicks": {
+     "Highly Relevant": 1,
+     "Relevant / Acceptable": 10,
+     "Borderline / Low Intent": 1,
+     "Irrelevant": 0,
+     "Clearly Wasteful": 1
+    },
+    "catConv": {
+     "Highly Relevant": 0.0,
+     "Relevant / Acceptable": 2.0,
+     "Borderline / Low Intent": 0.0,
+     "Irrelevant": 0.0,
+     "Clearly Wasteful": 0.0
+    },
+    "relSpend": 107.1,
+    "borSpend": 2.76,
+    "irrSpend": 2.62,
+    "irrSpendPct": 2.3,
+    "excl": 15,
+    "exclPct": 7.8,
+    "exclRel": 5,
+    "badActive": 10,
+    "badActiveSpend": 2.62,
+    "badExclSpend": 0.0,
+    "zeroConvSpend": 101.88,
+    "zeroConvPct": 90.6,
+    "namedPct": 78.2,
+    "namedSpendPct": 49.0
+   },
+   "std": {
+    "terms": 217,
+    "impr": 552,
+    "clicks": 41,
+    "cost": 297.76,
+    "conv": 2.0,
+    "ctr": 7.43,
+    "cpc": 7.26,
+    "cvr": 4.88,
+    "cpa": 148.88,
+    "relPct": 96.8,
+    "borPct": 2.8,
+    "irrPct": 0.5,
+    "cats": {
+     "Highly Relevant": 98,
+     "Relevant / Acceptable": 112,
+     "Borderline / Low Intent": 6,
+     "Irrelevant": 0,
+     "Clearly Wasteful": 1
+    },
+    "catCost": {
+     "Highly Relevant": 98.17,
+     "Relevant / Acceptable": 199.59,
+     "Borderline / Low Intent": 0.0,
+     "Irrelevant": 0.0,
+     "Clearly Wasteful": 0.0
+    },
+    "catClicks": {
+     "Highly Relevant": 17,
+     "Relevant / Acceptable": 24,
+     "Borderline / Low Intent": 0,
+     "Irrelevant": 0,
+     "Clearly Wasteful": 0
+    },
+    "catConv": {
+     "Highly Relevant": 2.0,
+     "Relevant / Acceptable": 0.0,
+     "Borderline / Low Intent": 0.0,
+     "Irrelevant": 0.0,
+     "Clearly Wasteful": 0.0
+    },
+    "relSpend": 297.76,
+    "borSpend": 0.0,
+    "irrSpend": 0.0,
+    "irrSpendPct": 0.0,
+    "excl": 1,
+    "exclPct": 0.5,
+    "exclRel": 1,
+    "badActive": 1,
+    "badActiveSpend": 0.0,
+    "badExclSpend": 0.0,
+    "zeroConvSpend": 264.55,
+    "zeroConvPct": 88.8,
+    "namedPct": 50.7,
+    "namedSpendPct": 9.7
+   },
+   "spendShare": 27.4,
+   "convShare": 50.0,
+   "clickShare": 24.1,
+   "termShare": 47.1,
+   "coverage": {
+    "visibleSpend": 410.24,
+    "totalSpend": 653.28,
+    "pct": 62.8,
+    "visibleConv": 4,
+    "totalConv": 6,
+    "convPct": 66.7
+   },
+   "convTerms": [
+    {
+     "term": "does 1199 cover braces for adults",
+     "cat": "Relevant / Acceptable",
+     "excl": "None",
+     "adgroup": "Braces",
+     "clicks": 2,
+     "cost": 10.6,
+     "conv": 2.0
+    }
+   ],
+   "topSpend": [
+    {
+     "term": "braces",
+     "cat": "Relevant / Acceptable",
+     "excl": "None",
+     "clicks": 1,
+     "cost": 18.38,
+     "conv": 0.0
+    },
+    {
+     "term": "braces insurance coverage",
+     "cat": "Relevant / Acceptable",
+     "excl": "None",
+     "clicks": 1,
+     "cost": 15.73,
+     "conv": 0.0
+    },
+    {
+     "term": "riverdale orthodontics",
+     "cat": "Highly Relevant",
+     "excl": "None",
+     "clicks": 1,
+     "cost": 12.6,
+     "conv": 0.0
+    },
+    {
+     "term": "nyu orthodontist",
+     "cat": "Relevant / Acceptable",
+     "excl": "None",
+     "clicks": 1,
+     "cost": 12.53,
+     "conv": 0.0
+    },
+    {
+     "term": "does 1199 cover braces for adults",
+     "cat": "Relevant / Acceptable",
+     "excl": "None",
+     "clicks": 2,
+     "cost": 10.6,
+     "conv": 2.0
+    },
+    {
+     "term": "overbite surgery",
+     "cat": "Relevant / Acceptable",
+     "excl": "None",
+     "clicks": 1,
+     "cost": 8.38,
+     "conv": 0.0
+    },
+    {
+     "term": "braces diamond",
+     "cat": "Relevant / Acceptable",
+     "excl": "None",
+     "clicks": 1,
+     "cost": 7.81,
+     "conv": 0.0
+    },
+    {
+     "term": "i need braces",
+     "cat": "Relevant / Acceptable",
+     "excl": "None",
+     "clicks": 1,
+     "cost": 7.8,
+     "conv": 0.0
+    },
+    {
+     "term": "diamond braces consultation",
+     "cat": "Relevant / Acceptable",
+     "excl": "None",
+     "clicks": 1,
+     "cost": 7.3,
+     "conv": 0.0
+    },
+    {
+     "term": "invisible line",
+     "cat": "Relevant / Acceptable",
+     "excl": "None",
+     "clicks": 1,
+     "cost": 5.97,
+     "conv": 0.0
+    }
+   ]
+  },
+  "Holt Orthodontics": {
+   "context": "Orthodontics \u2014 Sacramento, Folsom, Rocklin, Roseville, Granite Bay CA",
+   "aimax": {
+    "terms": 1138,
+    "impr": 1908,
+    "clicks": 84,
+    "cost": 1445.52,
+    "conv": 5.64,
+    "ctr": 4.4,
+    "cpc": 17.21,
+    "cvr": 6.71,
+    "cpa": 256.3,
+    "relPct": 32.9,
+    "borPct": 32.3,
+    "irrPct": 34.8,
+    "cats": {
+     "Highly Relevant": 95,
+     "Relevant / Acceptable": 279,
+     "Borderline / Low Intent": 368,
+     "Irrelevant": 115,
+     "Clearly Wasteful": 281
+    },
+    "catCost": {
+     "Highly Relevant": 132.57,
+     "Relevant / Acceptable": 260.35,
+     "Borderline / Low Intent": 552.08,
+     "Irrelevant": 66.48,
+     "Clearly Wasteful": 434.04
+    },
+    "catClicks": {
+     "Highly Relevant": 7,
+     "Relevant / Acceptable": 10,
+     "Borderline / Low Intent": 15,
+     "Irrelevant": 6,
+     "Clearly Wasteful": 46
+    },
+    "catConv": {
+     "Highly Relevant": 1.64,
+     "Relevant / Acceptable": 0.0,
+     "Borderline / Low Intent": 2.0,
+     "Irrelevant": 0.0,
+     "Clearly Wasteful": 2.0
+    },
+    "relSpend": 392.92,
+    "borSpend": 552.08,
+    "irrSpend": 500.52,
+    "irrSpendPct": 34.6,
+    "excl": 125,
+    "exclPct": 11.0,
+    "exclRel": 14,
+    "badActive": 301,
+    "badActiveSpend": 162.97,
+    "badExclSpend": 337.55,
+    "zeroConvSpend": 1236.47,
+    "zeroConvPct": 85.5,
+    "namedPct": 84.4,
+    "namedSpendPct": 84.6
+   },
+   "std": {
+    "terms": 996,
+    "impr": 3531,
+    "clicks": 159,
+    "cost": 3402.01,
+    "conv": 19.62,
+    "ctr": 4.5,
+    "cpc": 21.4,
+    "cvr": 12.34,
+    "cpa": 173.4,
+    "relPct": 92.9,
+    "borPct": 5.2,
+    "irrPct": 1.9,
+    "cats": {
+     "Highly Relevant": 388,
+     "Relevant / Acceptable": 537,
+     "Borderline / Low Intent": 52,
+     "Irrelevant": 13,
+     "Clearly Wasteful": 6
+    },
+    "catCost": {
+     "Highly Relevant": 1916.41,
+     "Relevant / Acceptable": 1418.41,
+     "Borderline / Low Intent": 54.02,
+     "Irrelevant": 13.17,
+     "Clearly Wasteful": 0.0
+    },
+    "catClicks": {
+     "Highly Relevant": 88,
+     "Relevant / Acceptable": 67,
+     "Borderline / Low Intent": 3,
+     "Irrelevant": 1,
+     "Clearly Wasteful": 0
+    },
+    "catConv": {
+     "Highly Relevant": 13.62,
+     "Relevant / Acceptable": 6.0,
+     "Borderline / Low Intent": 0.0,
+     "Irrelevant": 0.0,
+     "Clearly Wasteful": 0.0
+    },
+    "relSpend": 3334.82,
+    "borSpend": 54.02,
+    "irrSpend": 13.17,
+    "irrSpendPct": 0.4,
+    "excl": 11,
+    "exclPct": 1.1,
+    "exclRel": 11,
+    "badActive": 19,
+    "badActiveSpend": 13.17,
+    "badExclSpend": 0.0,
+    "zeroConvSpend": 2129.66,
+    "zeroConvPct": 62.6,
+    "namedPct": 49.3,
+    "namedSpendPct": 20.5
+   },
+   "spendShare": 29.8,
+   "convShare": 22.3,
+   "clickShare": 34.6,
+   "termShare": 53.3,
+   "coverage": {
+    "visibleSpend": 4847.5,
+    "totalSpend": 8845.27,
+    "pct": 54.8,
+    "visibleConv": 25.25,
+    "totalConv": 49.57,
+    "convPct": 50.9
+   },
+   "convTerms": [
+    {
+     "term": "caring tree lincoln",
+     "cat": "Borderline / Low Intent",
+     "excl": "None",
+     "adgroup": "Search_Orthodontist",
+     "clicks": 1,
+     "cost": 54.47,
+     "conv": 1.0
+    },
+    {
+     "term": "140 roseville pkwy suite 150 roseville ca 95678",
+     "cat": "Clearly Wasteful",
+     "excl": "Excluded",
+     "adgroup": "Search_Braces",
+     "clicks": 2,
+     "cost": 28.2,
+     "conv": 1.0
+    },
+    {
+     "term": "drholt",
+     "cat": "Highly Relevant",
+     "excl": "None",
+     "adgroup": "Search_Invisalign",
+     "clicks": 1,
+     "cost": 8.28,
+     "conv": 1.0
+    },
+    {
+     "term": "children's choice lincoln",
+     "cat": "Borderline / Low Intent",
+     "excl": "None",
+     "adgroup": "Search_Braces",
+     "clicks": 2,
+     "cost": 81.98,
+     "conv": 1.0
+    },
+    {
+     "term": "sutter health hospital sacramento",
+     "cat": "Clearly Wasteful",
+     "excl": "Excluded",
+     "adgroup": "LP_Test_Phrase",
+     "clicks": 1,
+     "cost": 23.61,
+     "conv": 1.0
+    },
+    {
+     "term": "north highlands orthodontist",
+     "cat": "Highly Relevant",
+     "excl": "Excluded",
+     "adgroup": "Search_Invisalign",
+     "clicks": 1,
+     "cost": 12.51,
+     "conv": 0.64
+    }
+   ],
+   "topSpend": [
+    {
+     "term": "children's choice lincoln",
+     "cat": "Borderline / Low Intent",
+     "excl": "None",
+     "clicks": 2,
+     "cost": 81.98,
+     "conv": 1.0
+    },
+    {
+     "term": "hammond and proctor",
+     "cat": "Borderline / Low Intent",
+     "excl": "Excluded",
+     "clicks": 1,
+     "cost": 81.85,
+     "conv": 0.0
+    },
+    {
+     "term": "morada orthodontics",
+     "cat": "Relevant / Acceptable",
+     "excl": "Excluded",
+     "clicks": 1,
+     "cost": 56.46,
+     "conv": 0.0
+    },
+    {
+     "term": "amy kiesselbach",
+     "cat": "Borderline / Low Intent",
+     "excl": "Excluded",
+     "clicks": 1,
+     "cost": 55.7,
+     "conv": 0.0
+    },
+    {
+     "term": "caring tree lincoln",
+     "cat": "Borderline / Low Intent",
+     "excl": "None",
+     "clicks": 1,
+     "cost": 54.47,
+     "conv": 1.0
+    },
+    {
+     "term": "comfort teeth",
+     "cat": "Borderline / Low Intent",
+     "excl": "None",
+     "clicks": 1,
+     "cost": 54.06,
+     "conv": 0.0
+    },
+    {
+     "term": "ronald rossi dds",
+     "cat": "Borderline / Low Intent",
+     "excl": "Excluded",
+     "clicks": 1,
+     "cost": 52.74,
+     "conv": 0.0
+    },
+    {
+     "term": "tooth sunny badyal",
+     "cat": "Borderline / Low Intent",
+     "excl": "Excluded",
+     "clicks": 1,
+     "cost": 44.19,
+     "conv": 0.0
+    },
+    {
+     "term": "insurance that covers braces",
+     "cat": "Relevant / Acceptable",
+     "excl": "None",
+     "clicks": 1,
+     "cost": 43.1,
+     "conv": 0.0
+    },
+    {
+     "term": "retainer for teeth",
+     "cat": "Relevant / Acceptable",
+     "excl": "None",
+     "clicks": 2,
+     "cost": 42.89,
+     "conv": 0.0
+    }
+   ]
+  },
+  "Ortho Excellence": {
+   "context": "Orthodontics \u2014 Bonney Lake / Puyallup WA",
+   "aimax": {
+    "terms": 1047,
+    "impr": 2091,
+    "clicks": 103,
+    "cost": 1245.24,
+    "conv": 7.0,
+    "ctr": 4.93,
+    "cpc": 12.09,
+    "cvr": 6.8,
+    "cpa": 177.89,
+    "relPct": 8.3,
+    "borPct": 57.3,
+    "irrPct": 34.4,
+    "cats": {
+     "Highly Relevant": 21,
+     "Relevant / Acceptable": 66,
+     "Borderline / Low Intent": 600,
+     "Irrelevant": 293,
+     "Clearly Wasteful": 67
+    },
+    "catCost": {
+     "Highly Relevant": 29.38,
+     "Relevant / Acceptable": 89.05,
+     "Borderline / Low Intent": 775.11,
+     "Irrelevant": 250.6,
+     "Clearly Wasteful": 101.1
+    },
+    "catClicks": {
+     "Highly Relevant": 2,
+     "Relevant / Acceptable": 7,
+     "Borderline / Low Intent": 65,
+     "Irrelevant": 21,
+     "Clearly Wasteful": 8
+    },
+    "catConv": {
+     "Highly Relevant": 1.0,
+     "Relevant / Acceptable": 0.0,
+     "Borderline / Low Intent": 4.0,
+     "Irrelevant": 2.0,
+     "Clearly Wasteful": 0.0
+    },
+    "relSpend": 118.43,
+    "borSpend": 775.11,
+    "irrSpend": 351.7,
+    "irrSpendPct": 28.2,
+    "excl": 47,
+    "exclPct": 4.5,
+    "exclRel": 7,
+    "badActive": 350,
+    "badActiveSpend": 221.75,
+    "badExclSpend": 129.95,
+    "zeroConvSpend": 1135.32,
+    "zeroConvPct": 91.2,
+    "namedPct": 75.6,
+    "namedSpendPct": 82.4
+   },
+   "std": {
+    "terms": 175,
+    "impr": 485,
+    "clicks": 39,
+    "cost": 449.6,
+    "conv": 5.0,
+    "ctr": 8.04,
+    "cpc": 11.53,
+    "cvr": 12.82,
+    "cpa": 89.92,
+    "relPct": 89.1,
+    "borPct": 5.7,
+    "irrPct": 5.1,
+    "cats": {
+     "Highly Relevant": 88,
+     "Relevant / Acceptable": 68,
+     "Borderline / Low Intent": 10,
+     "Irrelevant": 3,
+     "Clearly Wasteful": 6
+    },
+    "catCost": {
+     "Highly Relevant": 227.44,
+     "Relevant / Acceptable": 214.82,
+     "Borderline / Low Intent": 0.0,
+     "Irrelevant": 0.0,
+     "Clearly Wasteful": 7.34
+    },
+    "catClicks": {
+     "Highly Relevant": 22,
+     "Relevant / Acceptable": 16,
+     "Borderline / Low Intent": 0,
+     "Irrelevant": 0,
+     "Clearly Wasteful": 1
+    },
+    "catConv": {
+     "Highly Relevant": 5.0,
+     "Relevant / Acceptable": 0.0,
+     "Borderline / Low Intent": 0.0,
+     "Irrelevant": 0.0,
+     "Clearly Wasteful": 0.0
+    },
+    "relSpend": 442.26,
+    "borSpend": 0.0,
+    "irrSpend": 7.34,
+    "irrSpendPct": 1.6,
+    "excl": 4,
+    "exclPct": 2.3,
+    "exclRel": 1,
+    "badActive": 8,
+    "badActiveSpend": 0.0,
+    "badExclSpend": 7.34,
+    "zeroConvSpend": 375.82,
+    "zeroConvPct": 83.6,
+    "namedPct": 45.1,
+    "namedSpendPct": 22.8
+   },
+   "spendShare": 73.5,
+   "convShare": 58.3,
+   "clickShare": 72.5,
+   "termShare": 85.7,
+   "coverage": {
+    "visibleSpend": 1694.84,
+    "totalSpend": 2372.42,
+    "pct": 71.4,
+    "visibleConv": 12,
+    "totalConv": 15,
+    "convPct": 80.0
+   },
+   "convTerms": [
+    {
+     "term": "mark ngo dentist puyallup",
+     "cat": "Irrelevant",
+     "excl": "Excluded",
+     "adgroup": "Search_Puyallup",
+     "clicks": 1,
+     "cost": 14.46,
+     "conv": 1.0
+    },
+    {
+     "term": "tmj specialist near me",
+     "cat": "Highly Relevant",
+     "excl": "None",
+     "adgroup": "Search_Puyallup",
+     "clicks": 1,
+     "cost": 14.71,
+     "conv": 1.0
+    },
+    {
+     "term": "ossman harding dental",
+     "cat": "Borderline / Low Intent",
+     "excl": "Excluded",
+     "adgroup": "Search_BonneyLakes_Ortho",
+     "clicks": 1,
+     "cost": 8.37,
+     "conv": 1.0
+    },
+    {
+     "term": "dentist tacoma",
+     "cat": "Irrelevant",
+     "excl": "None",
+     "adgroup": "Search_Puyallup",
+     "clicks": 1,
+     "cost": 14.44,
+     "conv": 1.0
+    },
+    {
+     "term": "sumner smiles",
+     "cat": "Borderline / Low Intent",
+     "excl": "Excluded",
+     "adgroup": "Search_Puyallup",
+     "clicks": 1,
+     "cost": 14.39,
+     "conv": 1.0
+    },
+    {
+     "term": "rewards dental tacoma",
+     "cat": "Borderline / Low Intent",
+     "excl": "None",
+     "adgroup": "Search_Puyallup",
+     "clicks": 2,
+     "cost": 29.46,
+     "conv": 1.0
+    },
+    {
+     "term": "dental clinic near me",
+     "cat": "Borderline / Low Intent",
+     "excl": "None",
+     "adgroup": "Search_BonneyLakes_Ortho",
+     "clicks": 1,
+     "cost": 14.09,
+     "conv": 1.0
+    }
+   ],
+   "topSpend": [
+    {
+     "term": "meridian dental care puyallup",
+     "cat": "Borderline / Low Intent",
+     "excl": "None",
+     "clicks": 3,
+     "cost": 41.24,
+     "conv": 0.0
+    },
+    {
+     "term": "ko and ko periodontics",
+     "cat": "Irrelevant",
+     "excl": "Excluded",
+     "clicks": 2,
+     "cost": 29.94,
+     "conv": 0.0
+    },
+    {
+     "term": "kids choice dental puyallup",
+     "cat": "Borderline / Low Intent",
+     "excl": "None",
+     "clicks": 2,
+     "cost": 29.75,
+     "conv": 0.0
+    },
+    {
+     "term": "rewards dental tacoma",
+     "cat": "Borderline / Low Intent",
+     "excl": "None",
+     "clicks": 2,
+     "cost": 29.46,
+     "conv": 1.0
+    },
+    {
+     "term": "rewards dental kent",
+     "cat": "Borderline / Low Intent",
+     "excl": "None",
+     "clicks": 2,
+     "cost": 29.33,
+     "conv": 0.0
+    },
+    {
+     "term": "teeth whitening tacoma",
+     "cat": "Irrelevant",
+     "excl": "None",
+     "clicks": 2,
+     "cost": 29.23,
+     "conv": 0.0
+    },
+    {
+     "term": "dental puyallup",
+     "cat": "Borderline / Low Intent",
+     "excl": "None",
+     "clicks": 2,
+     "cost": 28.46,
+     "conv": 0.0
+    },
+    {
+     "term": "bonney lake dental care",
+     "cat": "Borderline / Low Intent",
+     "excl": "None",
+     "clicks": 2,
+     "cost": 23.58,
+     "conv": 0.0
+    },
+    {
+     "term": "bates dental clinic",
+     "cat": "Borderline / Low Intent",
+     "excl": "Excluded",
+     "clicks": 2,
+     "cost": 15.41,
+     "conv": 0.0
+    },
+    {
+     "term": "evergreen oral surgery tacoma",
+     "cat": "Irrelevant",
+     "excl": "None",
+     "clicks": 2,
+     "cost": 15.39,
+     "conv": 0.0
+    }
+   ]
+  },
+  "Sabinsky": {
+   "context": "Orthodontics \u2014 Princeton / Hillsborough NJ",
+   "aimax": {
+    "terms": 285,
+    "impr": 590,
+    "clicks": 10,
+    "cost": 95.83,
+    "conv": 0.0,
+    "ctr": 1.69,
+    "cpc": 9.58,
+    "cvr": 0.0,
+    "cpa": null,
+    "relPct": 44.2,
+    "borPct": 30.5,
+    "irrPct": 25.3,
+    "cats": {
+     "Highly Relevant": 42,
+     "Relevant / Acceptable": 84,
+     "Borderline / Low Intent": 87,
+     "Irrelevant": 62,
+     "Clearly Wasteful": 10
+    },
+    "catCost": {
+     "Highly Relevant": 55.62,
+     "Relevant / Acceptable": 7.89,
+     "Borderline / Low Intent": 18.78,
+     "Irrelevant": 13.54,
+     "Clearly Wasteful": 0.0
+    },
+    "catClicks": {
+     "Highly Relevant": 7,
+     "Relevant / Acceptable": 1,
+     "Borderline / Low Intent": 1,
+     "Irrelevant": 1,
+     "Clearly Wasteful": 0
+    },
+    "catConv": {
+     "Highly Relevant": 0.0,
+     "Relevant / Acceptable": 0.0,
+     "Borderline / Low Intent": 0.0,
+     "Irrelevant": 0.0,
+     "Clearly Wasteful": 0.0
+    },
+    "relSpend": 63.51,
+    "borSpend": 18.78,
+    "irrSpend": 13.54,
+    "irrSpendPct": 14.1,
+    "excl": 25,
+    "exclPct": 8.8,
+    "exclRel": 11,
+    "badActive": 63,
+    "badActiveSpend": 0.0,
+    "badExclSpend": 13.54,
+    "zeroConvSpend": 95.83,
+    "zeroConvPct": 100.0,
+    "namedPct": 77.2,
+    "namedSpendPct": 58.3
+   },
+   "std": {
+    "terms": 449,
+    "impr": 1042,
+    "clicks": 52,
+    "cost": 519.59,
+    "conv": 7.0,
+    "ctr": 4.99,
+    "cpc": 9.99,
+    "cvr": 13.46,
+    "cpa": 74.23,
+    "relPct": 52.6,
+    "borPct": 20.5,
+    "irrPct": 26.9,
+    "cats": {
+     "Highly Relevant": 124,
+     "Relevant / Acceptable": 112,
+     "Borderline / Low Intent": 92,
+     "Irrelevant": 118,
+     "Clearly Wasteful": 3
+    },
+    "catCost": {
+     "Highly Relevant": 312.56,
+     "Relevant / Acceptable": 78.75,
+     "Borderline / Low Intent": 74.37,
+     "Irrelevant": 32.05,
+     "Clearly Wasteful": 21.86
+    },
+    "catClicks": {
+     "Highly Relevant": 31,
+     "Relevant / Acceptable": 8,
+     "Borderline / Low Intent": 8,
+     "Irrelevant": 4,
+     "Clearly Wasteful": 1
+    },
+    "catConv": {
+     "Highly Relevant": 7.0,
+     "Relevant / Acceptable": 0.0,
+     "Borderline / Low Intent": 0.0,
+     "Irrelevant": 0.0,
+     "Clearly Wasteful": 0.0
+    },
+    "relSpend": 391.31,
+    "borSpend": 74.37,
+    "irrSpend": 53.91,
+    "irrSpendPct": 10.4,
+    "excl": 51,
+    "exclPct": 11.4,
+    "exclRel": 15,
+    "badActive": 102,
+    "badActiveSpend": 3.47,
+    "badExclSpend": 50.44,
+    "zeroConvSpend": 335.13,
+    "zeroConvPct": 64.5,
+    "namedPct": 68.6,
+    "namedSpendPct": 49.9
+   },
+   "spendShare": 15.6,
+   "convShare": 0.0,
+   "clickShare": 16.1,
+   "termShare": 38.8,
+   "coverage": {
+    "visibleSpend": 615.42,
+    "totalSpend": 1115.03,
+    "pct": 55.2,
+    "visibleConv": 7,
+    "totalConv": 8,
+    "convPct": 87.5
+   },
+   "convTerms": [],
+   "topSpend": [
+    {
+     "term": "princeton orthodontics",
+     "cat": "Highly Relevant",
+     "excl": "Added",
+     "clicks": 5,
+     "cost": 39.96,
+     "conv": 0.0
+    },
+    {
+     "term": "summit smiles",
+     "cat": "Borderline / Low Intent",
+     "excl": "Excluded",
+     "clicks": 1,
+     "cost": 18.78,
+     "conv": 0.0
+    },
+    {
+     "term": "sleep apnea orthodontics near me",
+     "cat": "Highly Relevant",
+     "excl": "Excluded",
+     "clicks": 1,
+     "cost": 15.28,
+     "conv": 0.0
+    },
+    {
+     "term": "fogarty dentist princeton",
+     "cat": "Irrelevant",
+     "excl": "Excluded",
+     "clicks": 1,
+     "cost": 13.54,
+     "conv": 0.0
+    },
+    {
+     "term": "ismile orthodontics",
+     "cat": "Relevant / Acceptable",
+     "excl": "Excluded",
+     "clicks": 1,
+     "cost": 7.89,
+     "conv": 0.0
+    },
+    {
+     "term": "orthodontist east brunswick nj",
+     "cat": "Highly Relevant",
+     "excl": "None",
+     "clicks": 1,
+     "cost": 0.38,
+     "conv": 0.0
+    },
+    {
+     "term": "progressive orthodontics",
+     "cat": "Relevant / Acceptable",
+     "excl": "None",
+     "clicks": 0,
+     "cost": 0.0,
+     "conv": 0.0
+    },
+    {
+     "term": "orthodontist",
+     "cat": "Relevant / Acceptable",
+     "excl": "None",
+     "clicks": 0,
+     "cost": 0.0,
+     "conv": 0.0
+    },
+    {
+     "term": "pediatric dentists near me",
+     "cat": "Borderline / Low Intent",
+     "excl": "None",
+     "clicks": 0,
+     "cost": 0.0,
+     "conv": 0.0
+    },
+    {
+     "term": "tender smiles 4 kids near me",
+     "cat": "Borderline / Low Intent",
+     "excl": "None",
+     "clicks": 0,
+     "cost": 0.0,
+     "conv": 0.0
+    }
+   ]
+  },
+  "South Florida": {
+   "context": "General + emergency dentistry \u2014 Coral Springs FL",
+   "aimax": {
+    "terms": 945,
+    "impr": 1714,
+    "clicks": 57,
+    "cost": 510.09,
+    "conv": 3.0,
+    "ctr": 3.33,
+    "cpc": 8.95,
+    "cvr": 5.26,
+    "cpa": 170.03,
+    "relPct": 79.5,
+    "borPct": 15.6,
+    "irrPct": 5.0,
+    "cats": {
+     "Highly Relevant": 304,
+     "Relevant / Acceptable": 447,
+     "Borderline / Low Intent": 147,
+     "Irrelevant": 10,
+     "Clearly Wasteful": 37
+    },
+    "catCost": {
+     "Highly Relevant": 281.64,
+     "Relevant / Acceptable": 146.92,
+     "Borderline / Low Intent": 29.45,
+     "Irrelevant": 0.0,
+     "Clearly Wasteful": 52.08
+    },
+    "catClicks": {
+     "Highly Relevant": 34,
+     "Relevant / Acceptable": 16,
+     "Borderline / Low Intent": 4,
+     "Irrelevant": 0,
+     "Clearly Wasteful": 3
+    },
+    "catConv": {
+     "Highly Relevant": 2.0,
+     "Relevant / Acceptable": 1.0,
+     "Borderline / Low Intent": 0.0,
+     "Irrelevant": 0.0,
+     "Clearly Wasteful": 0.0
+    },
+    "relSpend": 428.56,
+    "borSpend": 29.45,
+    "irrSpend": 52.08,
+    "irrSpendPct": 10.2,
+    "excl": 255,
+    "exclPct": 27.0,
+    "exclRel": 193,
+    "badActive": 20,
+    "badActiveSpend": 18.35,
+    "badExclSpend": 33.73,
+    "zeroConvSpend": 465.94,
+    "zeroConvPct": 91.3,
+    "namedPct": 85.7,
+    "namedSpendPct": 86.7
+   },
+   "std": {
+    "terms": 1482,
+    "impr": 2498,
+    "clicks": 102,
+    "cost": 537.13,
+    "conv": 4.0,
+    "ctr": 4.08,
+    "cpc": 5.27,
+    "cvr": 3.92,
+    "cpa": 134.28,
+    "relPct": 79.2,
+    "borPct": 17.3,
+    "irrPct": 3.5,
+    "cats": {
+     "Highly Relevant": 495,
+     "Relevant / Acceptable": 679,
+     "Borderline / Low Intent": 256,
+     "Irrelevant": 27,
+     "Clearly Wasteful": 25
+    },
+    "catCost": {
+     "Highly Relevant": 319.92,
+     "Relevant / Acceptable": 127.48,
+     "Borderline / Low Intent": 69.79,
+     "Irrelevant": 19.94,
+     "Clearly Wasteful": 0.0
+    },
+    "catClicks": {
+     "Highly Relevant": 61,
+     "Relevant / Acceptable": 26,
+     "Borderline / Low Intent": 12,
+     "Irrelevant": 3,
+     "Clearly Wasteful": 0
+    },
+    "catConv": {
+     "Highly Relevant": 3.0,
+     "Relevant / Acceptable": 0.0,
+     "Borderline / Low Intent": 1.0,
+     "Irrelevant": 0.0,
+     "Clearly Wasteful": 0.0
+    },
+    "relSpend": 447.4,
+    "borSpend": 69.79,
+    "irrSpend": 19.94,
+    "irrSpendPct": 3.7,
+    "excl": 393,
+    "exclPct": 26.5,
+    "exclRel": 270,
+    "badActive": 40,
+    "badActiveSpend": 19.94,
+    "badExclSpend": 0.0,
+    "zeroConvSpend": 471.55,
+    "zeroConvPct": 87.8,
+    "namedPct": 85.9,
+    "namedSpendPct": 73.4
+   },
+   "spendShare": 48.7,
+   "convShare": 42.9,
+   "clickShare": 35.8,
+   "termShare": 38.9,
+   "coverage": {
+    "visibleSpend": 1047.21,
+    "totalSpend": 1619.4,
+    "pct": 64.7,
+    "visibleConv": 7,
+    "totalConv": 10,
+    "convPct": 70.0
+   },
+   "convTerms": [
+    {
+     "term": "south florida dentistry for children",
+     "cat": "Highly Relevant",
+     "excl": "None",
+     "adgroup": "Emergency",
+     "clicks": 2,
+     "cost": 12.22,
+     "conv": 1.0
+    },
+    {
+     "term": "tmj specialist coral springs",
+     "cat": "Highly Relevant",
+     "excl": "Excluded",
+     "adgroup": "New Patient $99 Offer",
+     "clicks": 1,
+     "cost": 6.85,
+     "conv": 1.0
+    },
+    {
+     "term": "craig tover endodontist",
+     "cat": "Relevant / Acceptable",
+     "excl": "Excluded",
+     "adgroup": "New Patient $99 Offer",
+     "clicks": 1,
+     "cost": 25.08,
+     "conv": 1.0
+    }
+   ],
+   "topSpend": [
+    {
+     "term": "south florida dentistry for children",
+     "cat": "Highly Relevant",
+     "excl": "None",
+     "clicks": 9,
+     "cost": 53.43,
+     "conv": 0.0
+    },
+    {
+     "term": "great expressions dental centers coral springs",
+     "cat": "Highly Relevant",
+     "excl": "Excluded",
+     "clicks": 1,
+     "cost": 27.0,
+     "conv": 0.0
+    },
+    {
+     "term": "oral surgeon coral springs",
+     "cat": "Highly Relevant",
+     "excl": "None",
+     "clicks": 1,
+     "cost": 26.21,
+     "conv": 0.0
+    },
+    {
+     "term": "dental smiles coral springs",
+     "cat": "Highly Relevant",
+     "excl": "None",
+     "clicks": 1,
+     "cost": 25.8,
+     "conv": 0.0
+    },
+    {
+     "term": "craig tover endodontist",
+     "cat": "Relevant / Acceptable",
+     "excl": "Excluded",
+     "clicks": 1,
+     "cost": 25.08,
+     "conv": 1.0
+    },
+    {
+     "term": "avak dental",
+     "cat": "Relevant / Acceptable",
+     "excl": "Excluded",
+     "clicks": 1,
+     "cost": 24.71,
+     "conv": 0.0
+    },
+    {
+     "term": "5810 wiles rd",
+     "cat": "Clearly Wasteful",
+     "excl": "Excluded",
+     "clicks": 1,
+     "cost": 24.0,
+     "conv": 0.0
+    },
+    {
+     "term": "coral spring dental center",
+     "cat": "Relevant / Acceptable",
+     "excl": "None",
+     "clicks": 1,
+     "cost": 19.28,
+     "conv": 0.0
+    },
+    {
+     "term": "jacaranda smiles plantation",
+     "cat": "Borderline / Low Intent",
+     "excl": "Excluded",
+     "clicks": 1,
+     "cost": 18.77,
+     "conv": 0.0
+    },
+    {
+     "term": "urgent care coral springs",
+     "cat": "Clearly Wasteful",
+     "excl": "None",
+     "clicks": 1,
+     "cost": 18.35,
+     "conv": 0.0
+    }
+   ]
+  }
+ },
+ "dateRange": "July 27 \u2013 August 25, 2026 (all five accounts, identical window)",
+ "total": {
+  "aimax": {
+   "terms": 3608,
+   "impr": 6609,
+   "clicks": 267,
+   "cost": 3409.16,
+   "conv": 17.64,
+   "ctr": 4.04,
+   "cpc": 12.77,
+   "cvr": 6.61,
+   "cpa": 193.26,
+   "relPct": 41.3,
+   "borPct": 34.0,
+   "irrPct": 24.7,
+   "cats": {
+    "Highly Relevant": 501,
+    "Relevant / Acceptable": 989,
+    "Borderline / Low Intent": 1227,
+    "Irrelevant": 486,
+    "Clearly Wasteful": 405
+   },
+   "catCost": {
+    "Highly Relevant": 511.81,
+    "Relevant / Acceptable": 598.71,
+    "Borderline / Low Intent": 1378.18,
+    "Irrelevant": 330.62,
+    "Clearly Wasteful": 589.84
+   },
+   "catClicks": {
+    "Highly Relevant": 51,
+    "Relevant / Acceptable": 44,
+    "Borderline / Low Intent": 86,
+    "Irrelevant": 28,
+    "Clearly Wasteful": 58
+   },
+   "catConv": {
+    "Highly Relevant": 4.64,
+    "Relevant / Acceptable": 3.0,
+    "Borderline / Low Intent": 6.0,
+    "Irrelevant": 2.0,
+    "Clearly Wasteful": 2.0
+   },
+   "relSpend": 1110.52,
+   "borSpend": 1378.18,
+   "irrSpend": 920.46,
+   "irrSpendPct": 27.0,
+   "excl": 467,
+   "exclPct": 12.9,
+   "exclRel": 230,
+   "badActive": 744,
+   "badActiveSpend": 405.69,
+   "badExclSpend": 514.77,
+   "zeroConvSpend": 3035.44,
+   "zeroConvPct": 89.0,
+   "namedPct": 81.3,
+   "namedSpendPct": 82.2
+  },
+  "std": {
+   "terms": 3319,
+   "impr": 8108,
+   "clicks": 393,
+   "cost": 5206.09,
+   "conv": 37.62,
+   "ctr": 4.85,
+   "cpc": 13.25,
+   "cvr": 9.57,
+   "cpa": 138.39,
+   "relPct": 81.4,
+   "borPct": 12.5,
+   "irrPct": 6.1,
+   "cats": {
+    "Highly Relevant": 1193,
+    "Relevant / Acceptable": 1508,
+    "Borderline / Low Intent": 416,
+    "Irrelevant": 161,
+    "Clearly Wasteful": 41
+   },
+   "catCost": {
+    "Highly Relevant": 2874.5,
+    "Relevant / Acceptable": 2039.05,
+    "Borderline / Low Intent": 198.18,
+    "Irrelevant": 65.16,
+    "Clearly Wasteful": 29.2
+   },
+   "catClicks": {
+    "Highly Relevant": 219,
+    "Relevant / Acceptable": 141,
+    "Borderline / Low Intent": 23,
+    "Irrelevant": 8,
+    "Clearly Wasteful": 2
+   },
+   "catConv": {
+    "Highly Relevant": 30.62,
+    "Relevant / Acceptable": 6.0,
+    "Borderline / Low Intent": 1.0,
+    "Irrelevant": 0.0,
+    "Clearly Wasteful": 0.0
+   },
+   "relSpend": 4913.55,
+   "borSpend": 198.18,
+   "irrSpend": 94.36,
+   "irrSpendPct": 1.8,
+   "excl": 460,
+   "exclPct": 13.9,
+   "exclRel": 298,
+   "badActive": 170,
+   "badActiveSpend": 36.58,
+   "badExclSpend": 57.78,
+   "zeroConvSpend": 3576.71,
+   "zeroConvPct": 68.7,
+   "namedPct": 68.1,
+   "namedSpendPct": 28.5
+  }
+ },
+ "catEfficiency": {
+  "Highly Relevant": {
+   "terms": 501,
+   "clicks": 51,
+   "cost": 511.81,
+   "conv": 4.64
+  },
+  "Relevant / Acceptable": {
+   "terms": 989,
+   "clicks": 44,
+   "cost": 598.71,
+   "conv": 3.0
+  },
+  "Borderline / Low Intent": {
+   "terms": 1227,
+   "clicks": 86,
+   "cost": 1378.18,
+   "conv": 6.0
+  },
+  "Irrelevant": {
+   "terms": 486,
+   "clicks": 28,
+   "cost": 330.62,
+   "conv": 2.0
+  },
+  "Clearly Wasteful": {
+   "terms": 405,
+   "clicks": 58,
+   "cost": 589.84,
+   "conv": 2.0
+  }
+ }
+}
