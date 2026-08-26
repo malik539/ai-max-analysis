@@ -4,8 +4,11 @@ Forensic audit of Google Ads **AI Max**-generated search terms across five
 orthodontic / dental accounts, covering **July 27 – August 25, 2026** (identical
 window in all five source files).
 
-**Deliverable:** [`report/ai-max-audit.html`](report/ai-max-audit.html) — a
-self-contained, theme-aware visual report.
+**Deliverables**
+
+- [`report/ai-max-audit.html`](report/ai-max-audit.html) — the full report (self-contained, theme-aware).
+- [`report/ai-max-brief.html`](report/ai-max-brief.html) — a 3-page executive brief; prints to exactly 3 A4 pages.
+- [`report/AI-Max-Audit-Brief.pdf`](report/AI-Max-Audit-Brief.pdf) — that brief as a PDF.
 
 ## Headline result
 
