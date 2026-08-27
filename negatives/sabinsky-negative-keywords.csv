@@ -1,0 +1,69 @@
+Tier,Negative keyword,Match type,Terms blocked (30d),Off-target blocked,Relevant blocked,Impressions,Clicks,Cost,Conversions,Example terms
+1 · Other dental specialties (not orthodontics),oral surgeon,Phrase,11,11,0,31,0,0.0,0.0,oral surgeon hillsborough nj ; oral surgeon nj ; richard stern oral surgeon ; oral surgeon middlesex nj ; oral surgeon somerville nj ; oral surgeon near me
+1 · Other dental specialties (not orthodontics),oral surgery,Phrase,14,14,0,25,0,0.0,0.0,princeton oral surgery ; oral surgery east brunswick ; ridge oral surgery ; northeast facial and oral surgery ; oral surgery new brunswick ; riverside oral surgery warren
+1 · Other dental specialties (not orthodontics),oral and facial surgery,Phrase,1,1,0,2,0,0.0,0.0,new jersey oral and facial surgery
+1 · Other dental specialties (not orthodontics),maxillofacial,Phrase,8,8,0,10,1,18.39,0.0,princeton oral and maxillofacial surgery ; oral maxillofacial surgery near me ; center for oral and maxillofacial surgery freehold ; princeton oral & maxillofacial surgery ; new jersey oral & maxillofacial surgery ; princeton oral and maxillofacial
+1 · Other dental specialties (not orthodontics),endodontist,Phrase,10,9,1,21,0,0.0,0.0,endodontist nj ; blue cross blue shield endodontist ; endodontist somerville nj ; endodontist edison nj ; endodontist hillsborough nj ; clinton endodontist
+1 · Other dental specialties (not orthodontics),endodontics,Phrase,3,3,0,5,0,0.0,0.0,ivy endodontics at princeton ; atk endodontics ; warren endodontics
+1 · Other dental specialties (not orthodontics),endodontic,Phrase,3,3,0,5,0,0.0,0.0,ivy endodontics at princeton ; atk endodontics ; warren endodontics
+1 · Other dental specialties (not orthodontics),periodontist,Phrase,3,3,0,6,0,0.0,0.0,periodontist hillsborough nj ; periodontist bridgewater nj
+1 · Other dental specialties (not orthodontics),periodontics,Phrase,3,3,0,4,0,0.0,0.0,princeton periodontics and implants ; lawrenceville periodontics ; hillsborough periodontics
+1 · Other dental specialties (not orthodontics),prosthodontist,Phrase,1,1,0,2,0,0.0,0.0,prosthodontist
+1 · Other dental specialties (not orthodontics),prosthodontics,Phrase,3,3,0,4,0,0.0,0.0,princeton prosthodontics ; central jersey prosthodontics ; central nj prosthodontics
+1 · Other dental specialties (not orthodontics),wisdom tooth,Phrase,1,1,0,1,0,0.0,0.0,wisdom tooth removal
+1 · Other dental specialties (not orthodontics),wisdom teeth,Phrase,0,0,0,0,0,0.0,0.0,
+1 · Other dental specialties (not orthodontics),cavity,Phrase,2,2,0,2,0,0.0,0.0,cavity detective tinton falls
+1 · Other dental specialties (not orthodontics),cavities,Phrase,0,0,0,0,0,0.0,0.0,
+1 · Other dental specialties (not orthodontics),teeth whitening,Phrase,3,3,0,3,0,0.0,0.0,teeth whitening zoom near me ; teeth whitening near me
+1 · Other dental specialties (not orthodontics),veneers,Phrase,3,3,0,5,0,0.0,0.0,veneers ; veneers new jersey ; veneers without shaving teeth cost
+1 · Other dental specialties (not orthodontics),veneer,Phrase,3,3,0,5,0,0.0,0.0,veneers ; veneers new jersey ; veneers without shaving teeth cost
+1 · Other dental specialties (not orthodontics),root canal,Phrase,0,0,0,0,0,0.0,0.0,
+1 · Other dental specialties (not orthodontics),denture,Phrase,0,0,0,0,0,0.0,0.0,
+1 · Other dental specialties (not orthodontics),dentures,Phrase,0,0,0,0,0,0.0,0.0,
+1 · Other dental specialties (not orthodontics),dental implant,Phrase,0,0,0,0,0,0.0,0.0,
+1 · Other dental specialties (not orthodontics),tooth extraction,Phrase,0,0,0,0,0,0.0,0.0,
+1 · Other dental specialties (not orthodontics),tooth filling,Phrase,0,0,0,0,0,0.0,0.0,
+1 · Other dental specialties (not orthodontics),dental crown,Phrase,0,0,0,0,0,0.0,0.0,
+2 · General dentistry (see the trade-off note),dentist,Phrase,122,108,5,282,5,37.51,0.0,ami shah dentist ; kaplan dentist bridgewater nj ; dentist bronx ny ; dentist belle mead nj ; rutgers dentist newark nj ; james suh dentist
+2 · General dentistry (see the trade-off note),dentists,Phrase,10,0,1,15,1,10.31,0.0,
+2 · General dentistry (see the trade-off note),dental office,Phrase,0,0,0,0,0,0.0,0.0,
+2 · General dentistry (see the trade-off note),dental clinic,Phrase,0,0,0,0,0,0.0,0.0,
+2 · General dentistry (see the trade-off note),emergency dentist,Phrase,2,2,0,2,0,0.0,0.0,emergency dentist princeton
+2 · General dentistry (see the trade-off note),cosmetic dentist,Phrase,1,1,0,1,0,0.0,0.0,cosmetic dentist near me
+2 · General dentistry (see the trade-off note),holistic dentist,Phrase,2,2,0,2,0,0.0,0.0,holistic dentist near me ; holistic dentist princeton nj
+2 · General dentistry (see the trade-off note),pediatric dentist,Phrase,1,0,0,1,0,0.0,0.0,
+2 · General dentistry (see the trade-off note),family dentist,Phrase,2,2,0,2,0,0.0,0.0,family dentist hillsborough ; family dentist hillsborough nj
+3 · DTC mail-order aligner brands,byte,Phrase,1,1,0,1,0,0.0,0.0,byte
+3 · DTC mail-order aligner brands,candid,Phrase,2,1,0,3,0,0.0,0.0,candid pro
+3 · DTC mail-order aligner brands,smiledirectclub,Phrase,0,0,0,0,0,0.0,0.0,
+3 · DTC mail-order aligner brands,smile direct,Phrase,0,0,0,0,0,0.0,0.0,
+3 · DTC mail-order aligner brands,alignerco,Phrase,0,0,0,0,0,0.0,0.0,
+3 · DTC mail-order aligner brands,smileie,Phrase,0,0,0,0,0,0.0,0.0,
+3 · DTC mail-order aligner brands,impress aligners,Phrase,0,0,0,0,0,0.0,0.0,
+4 · Out-of-market geography,bronx,Phrase,1,1,0,1,0,0.0,0.0,dentist bronx ny
+4 · Out-of-market geography,new york,Phrase,0,0,0,0,0,0.0,0.0,
+4 · Out-of-market geography,nyc,Phrase,1,1,0,1,0,0.0,0.0,ismile orthodontics nyc
+4 · Out-of-market geography,brooklyn,Phrase,0,0,0,0,0,0.0,0.0,
+4 · Out-of-market geography,queens,Phrase,0,0,0,0,0,0.0,0.0,
+4 · Out-of-market geography,boston,Phrase,1,1,0,1,0,0.0,0.0,invisalign boston
+4 · Out-of-market geography,philadelphia,Phrase,0,0,0,0,0,0.0,0.0,
+4 · Out-of-market geography,newark,Phrase,1,1,0,1,0,0.0,0.0,rutgers dentist newark nj
+4 · Out-of-market geography,north bergen,Phrase,1,1,0,2,0,0.0,0.0,8407 kennedy blvd north bergen
+4 · Out-of-market geography,new hope pa,Phrase,1,1,0,1,0,0.0,0.0,dentist new hope pa
+5 · Non-dental verticals,costco,Phrase,1,1,0,1,0,0.0,0.0,costco eye appointment
+5 · Non-dental verticals,eye appointment,Phrase,1,1,0,1,0,0.0,0.0,costco eye appointment
+5 · Non-dental verticals,eye doctor,Phrase,0,0,0,0,0,0.0,0.0,
+5 · Non-dental verticals,optometrist,Phrase,0,0,0,0,0,0.0,0.0,
+5 · Non-dental verticals,chiropractor,Phrase,0,0,0,0,0,0.0,0.0,
+5 · Non-dental verticals,urgent care,Phrase,0,0,0,0,0,0.0,0.0,
+5 · Non-dental verticals,dermatologist,Phrase,0,0,0,0,0,0.0,0.0,
+6 · Competitor provider names,d m d,Phrase,2,2,0,3,0,0.0,0.0,daniel greenberg d m d ; nathan c steele d m d
+6 · Competitor provider names,dmd,Phrase,1,0,0,1,0,0.0,0.0,
+6 · Competitor provider names,daniel greenberg,Exact,0,0,0,0,0,0.0,0.0,
+6 · Competitor provider names,nathan c steele,Exact,0,0,0,0,0,0.0,0.0,
+6 · Competitor provider names,freda and suriano bloomfield nj,Exact,2,2,0,4,0,0.0,0.0,freda and suriano bloomfield nj
+6 · Competitor provider names,pearly whites berkeley heights nj,Exact,1,1,0,4,0,0.0,0.0,pearly whites berkeley heights nj
+7 · Navigational address lookups (exact only),213 summerhill rd east brunswick nj,Exact,1,1,0,1,0,0.0,0.0,213 summerhill rd east brunswick nj
+7 · Navigational address lookups (exact only),520 lawrence square blvd,Exact,1,1,0,1,0,0.0,0.0,520 lawrence square blvd
+7 · Navigational address lookups (exact only),746 livingston ave north brunswick nj 08902,Exact,1,1,0,1,0,0.0,0.0,746 livingston ave north brunswick nj 08902
+7 · Navigational address lookups (exact only),8407 kennedy blvd north bergen,Exact,1,1,0,2,0,0.0,0.0,8407 kennedy blvd north bergen

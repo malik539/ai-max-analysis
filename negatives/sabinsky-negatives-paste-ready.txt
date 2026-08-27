@@ -1,0 +1,103 @@
+# SABINSKY ORTHODONTICS — NEGATIVE KEYWORD LIST
+# Source: Google Ads search terms report, 27 Jul – 25 Aug 2026 (734 terms reviewed)
+# Blocks 187 of 193 off-target terms. Verified: does NOT block "keith a sabinsky dds" or any converting term.
+# Google Ads: Tools > Shared library > Negative keyword lists — paste each block, set the match type shown.
+
+### 1 · Other dental specialties (not orthodontics)
+# --- Phrase match ---
+"oral surgeon"
+"oral surgery"
+"oral and facial surgery"
+"maxillofacial"
+"endodontist"
+"endodontics"
+"endodontic"
+"periodontist"
+"periodontics"
+"prosthodontist"
+"prosthodontics"
+"wisdom tooth"
+"wisdom teeth"
+"cavity"
+"cavities"
+"teeth whitening"
+"veneers"
+"veneer"
+"root canal"
+"denture"
+"dentures"
+"dental implant"
+"tooth extraction"
+"tooth filling"
+"dental crown"
+
+### 2 · General dentistry (see the trade-off note)
+# --- Phrase match ---
+"dentist"
+"dentists"
+"dental office"
+"dental clinic"
+"emergency dentist"
+"cosmetic dentist"
+"holistic dentist"
+"pediatric dentist"
+"family dentist"
+
+### 3 · DTC mail-order aligner brands
+# --- Phrase match ---
+"byte"
+"candid"
+"smiledirectclub"
+"smile direct"
+"alignerco"
+"smileie"
+"impress aligners"
+
+### 4 · Out-of-market geography
+# --- Phrase match ---
+"bronx"
+"new york"
+"nyc"
+"brooklyn"
+"queens"
+"boston"
+"philadelphia"
+"newark"
+"north bergen"
+"new hope pa"
+
+### 5 · Non-dental verticals
+# --- Phrase match ---
+"costco"
+"eye appointment"
+"eye doctor"
+"optometrist"
+"chiropractor"
+"urgent care"
+"dermatologist"
+
+### 6 · Competitor provider names
+# --- Exact match ---
+[daniel greenberg]
+[nathan c steele]
+[freda and suriano bloomfield nj]
+[pearly whites berkeley heights nj]
+# --- Phrase match ---
+"d m d"
+"dmd"
+
+### 7 · Navigational address lookups (exact only)
+# --- Exact match ---
+[213 summerhill rd east brunswick nj]
+[520 lawrence square blvd]
+[746 livingston ave north brunswick nj 08902]
+[8407 kennedy blvd north bergen]
+
+### DO NOT ADD THESE (checked and rejected)
+# dds — Would block your own brand term "keith a sabinsky dds", plus "radiant orthodontics tiffany chen dds mds". Never negate dds on this account.
+# 3m clarity — 3M Clarity is a ceramic bracket / aligner brand — this is orthodontic intent. Our classifier misfiled it; do not negate.
+# oral medicine specialist near me — Orthodontists commonly treat orofacial pain and TMD, and this account already draws relevant TMJ traffic. Monitor rather than block.
+# orofacial pain specialist near me — Same as above — orofacial pain is within orthodontic scope.
+# pa (as a standalone negative) — Would block "orthodontist langhorne pa". Use the exact phrase "new hope pa" instead.
+# sleep apnea — "sleep apnea orthodontics near me" is relevant and has already taken $15.28 of spend.
+# tmj — All six TMJ terms in this account are relevant orthodontic queries.
